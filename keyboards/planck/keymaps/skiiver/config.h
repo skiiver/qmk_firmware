@@ -37,7 +37,7 @@
 #define ENCODER_RESOLUTION 4
 
 // for fast typing with MT() holds
-#define IGNORE_MOD_TAP_INTERRUPT
+//#define IGNORE_MOD_TAP_INTERRUPT
 
 //#define NO_ACTION_TAPPING //save size if needed
 // Tapping Layer Toggle
