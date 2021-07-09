@@ -20,7 +20,7 @@
    - MIDI notes can be sent when in Music mode is on
 */
 
-#define MIDI_BASIC
+//#define MIDI_BASIC
 
 /* enable advanced MIDI features:
    - MIDI notes can be added to the keymap
@@ -37,7 +37,7 @@
 #define ENCODER_RESOLUTION 4
 
 // for fast typing with MT() holds
-//#define IGNORE_MOD_TAP_INTERRUPT
+#define IGNORE_MOD_TAP_INTERRUPT
 
 //#define NO_ACTION_TAPPING //save size if needed
 // Tapping Layer Toggle
