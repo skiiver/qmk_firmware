@@ -36,12 +36,15 @@
 // Most tactile encoders have detents every 4 stages
 #define ENCODER_RESOLUTION 4
 
-// for fast typing with MT() holds
+//Tapping Config for Home Row Mods, MT (and some LT)
+// Configure the global tapping term (default: 200ms)
+#define TAPPING_TERM 200
+
+// Prevent normal rollover on alphas from accidentally triggering mods...until tapping term / hold threshold met
 #define IGNORE_MOD_TAP_INTERRUPT
 
-//#define NO_ACTION_TAPPING //save size if needed
-// Tapping Layer Toggle
-//#define TAPPING_TOGGLE 2
-/* for Tap Dance
-#define TAPPING_TERM 200
-*/
+// Enable rapid switch from tap to hold, disables double tap hold auto-repeat.
+#define TAPPING_FORCE_HOLD
+
+// Apply the modifier on keys that are tapped during a short hold of a modtap
+//#define PERMISSIVE_HOLD // not sure this is needed for my style
